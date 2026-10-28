@@ -1,0 +1,81 @@
+[
+  {
+    "ids": ["hci", "decision-support-systems"],
+    "foundation": "Sociotechnical Systems",
+    "groups": [
+      { "label": "People", "terms": ["Players", "Creators", "Investors"] },
+      {
+        "label": "Technology",
+        "terms": [
+          "Online Games",
+          "Video Games",
+          "Mobile Games",
+          "User-Generated Games",
+          "Social Media"
+        ]
+      },
+      {
+        "label": "Phenomena",
+        "terms": [
+          "Agency",
+          "Collaboration",
+          "Safety",
+          "Governance",
+          "Manipulation",
+          "Deception",
+          "Risk-Taking"
+        ]
+      }
+    ],
+    "color": "#4f46e5",
+    "positions": {
+      "hci": "upper-right",
+      "decision-support-systems": "upper-right"
+    }
+  },
+  {
+    "ids": ["hci", "llms"],
+    "foundation": "Human–AI Interaction",
+    "groups": [
+      { "label": "People", "terms": ["Clinicians"] },
+      { "label": "Technology", "terms": ["Multi-Agent AI"] },
+      {
+        "label": "Phenomena",
+        "terms": [
+          "Teaming",
+          "Trust",
+          "Autonomy",
+          "Human Oversight",
+          "Decision-Making"
+        ]
+      }
+    ],
+    "color": "#0d9488",
+    "positions": {
+      "hci": "upper-left",
+      "llms": "upper-left"
+    }
+  },
+  {
+    "ids": ["decision-support-systems", "llms"],
+    "foundation": "Applied AI Systems",
+    "groups": [
+      { "label": "People", "terms": ["Clinicians"] },
+      { "label": "Technology", "terms": ["Multi-Agent AI", "LLMs", "RAG"] },
+      {
+        "label": "Phenomena",
+        "terms": [
+          "Clinical Reasoning",
+          "Decision Support",
+          "Professional Workflows",
+          "System Evaluation"
+        ]
+      }
+    ],
+    "color": "#d97706",
+    "positions": {
+      "decision-support-systems": "lower-right",
+      "llms": "lower-left"
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "whi-clinical-ai",
+    "title": "Co-Designing AI for Clinical Work",
+    "organization": "Wellbeing & Health Innovation Lab (Penn State)",
+    "role": "Doctoral Researcher",
+    "timeline": "Aug 2024 – Present",
+    "summary": "Designing a multi-mode clinical AI system and behavioral telemetry pipeline to support therapist decision-making.",
+    "techStack": [
+      "LLM & RAG Architecture",
+      "AWS SQL Pipeline",
+      "Mixed-Methods Evaluation"
+    ],
+    "context": "Clinicians delivering exposure therapy face high cognitive load when structuring case hierarchies, tracking patient progress, and adapting interventions, while standard LLM interfaces lack clinical guardrails and human gatekeeping controls.",
+    "bullets": [
+      "Co-designed and architected a multi-mode AI clinical workbench with 32 therapists, integrating RAG over clinical literature, persistent workspaces, and clinician oversight controls.",
+      "Engineered an AWS SQL telemetry pipeline to process 3,000+ user interaction logs across planning, reflection, and material-generation workflows.",
+      "Modeled behavioral log data using regression and ANOVA to isolate 8 adoption drivers, reducing clinician mental workload by 27% during case conceptualization."
+    ]
+  },
+  {
+    "id": "las-workflow-modeling",
+    "title": "Predictive Workflow & Readiness Modeling",
+    "organization": "Laboratory for Analytic Sciences (NC State)",
+    "role": "UX Research Scientist",
+    "timeline": "May 2025 – Dec 2025",
+    "summary": "Modeling workflow telemetry and compliance readiness frameworks across multi-sector national security R&D.",
+    "techStack": [
+      "Random Forest Ranking",
+      "Workflow Telemetry",
+      "Readiness Taxonomy"
+    ],
+    "context": "At LAS—a cross-sector research lab bridging government, industry, and academia—complex analytic studies frequently stalled between conception and execution due to opaque regulatory, data-security, and compliance dependencies.",
+    "bullets": [
+      "Conducted contextual inquiries with intelligence analysts, product owners, and compliance officers to map end-to-end study lifecycles and failure modes.",
+      "Applied random forest feature ranking to operational workflow telemetry to pinpoint the drivers of multi-week R&D delays.",
+      "Developed a multi-dimensional Project Maturity Framework and 5 workflow estimation tools, reducing compliance review errors by 12% and improving task speed by 14%."
+    ]
+  },
+  {
+    "id": "wtw-analytics-ai",
+    "title": "Enterprise Telemetry & AI Assistant",
+    "organization": "Willis Towers Watson (WTW)",
+    "role": "UX Research Intern",
+    "timeline": "Jun 2025 – Aug 2025",
+    "summary": "Combining enterprise SQL behavioral analytics with AI decision-support scoping across 3.5M+ users and 80+ Fortune 500 clients.",
+    "techStack": [
+      "SQL Pipelines",
+      "Power BI Telemetry",
+      "AI Scoping & A/B Testing"
+    ],
+    "context": "WTW's enterprise benefits and Retiree Self-Service platforms support 3.5M+ users annually across 80+ Fortune 500 clients, where complex healthcare and pension elections created decision bottlenecks and product teams relied on manual SQL requests to diagnose drop-offs.",
+    "bullets": [
+      "Queried large-scale navigation paths and session logs from the enterprise data warehouse and built automated SQL-to-Power BI pipelines, cutting ad-hoc SQL requests by 60%.",
+      "Scoped an MVP AI enrollment assistant and defined safe decision-support boundaries through user interviews, reducing benefit election decision time by 30%.",
+      "Executed iterative A/B testing and journey mapping across 5 agile sprints, lifting end-to-end task completion by 22%."
+    ]
+  },
+  {
+    "id": "cie-vr-systems",
+    "title": "Multi-User 3D Spatial Systems",
+    "organization": "Center for Immersive Experiences (Penn State)",
+    "role": "Virtual Reality Developer",
+    "timeline": "May 2022 – Jul 2022",
+    "summary": "Developing networked multi-user 3D prototypes and conducting empirical spatial interaction pilots.",
+    "techStack": [
+      "3D / VR Development",
+      "Spatial UI Architecture",
+      "Empirical Usability Pilots"
+    ],
+    "context": "Multi-user virtual reality environments often suffer from spatial disorientation and interaction friction when translating complex 3D architectural and computational models into collaborative scenes.",
+    "bullets": [
+      "Engineered and shipped 3 networked, multi-user 3D interactive prototypes using computational design and real-time rendering pipelines.",
+      "Designed and conducted empirical VR usability pilots with 18 participants to evaluate locomotion mechanics, spatial navigation, and task completion.",
+      "Trained 10+ researchers and developers on VR interaction workflows and delivered 3 production-ready showcases for university stakeholders."
+    ]
+  }
+]

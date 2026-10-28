@@ -1,0 +1,103 @@
+{
+  "name": "Sam Moradzadeh",
+  "title": "Human-Centered AI Researcher",
+  "role": ["PhD Candidate & AI Researcher"],
+  "affiliation": "Pennsylvania State University",
+  "photo": "/assets/profile-photo.jpg",
+  "links": {
+    "email": "szm6500@psu.edu",
+    "scholar": "https://scholar.google.com/citations?hl=en&user=Q_BC5_4AAAAJ&view_op=list_works&sortby=pubdate",
+    "github": "https://github.com/szm6500",
+    "linkedin": "https://www.linkedin.com/in/sam-moradzadeh/"
+  },
+  "portraitCaption": "Portrait placeholder",
+  "home": {
+    "heading": ["About", ""],
+    "bio": [
+      [
+        {
+          "text": "I am a Ph.D. candidate in Information Sciences and Technology at Pennsylvania State University, working in the Wellbeing & Health Innovation Lab. Prior to my Ph.D., I earned my Master of Science degree in Computational Design at Penn State, and have conducted human-centered AI and behavioral analytics research across government and enterprise labs, including the Laboratory for Analytic Sciences and Willis Towers Watson."
+        }
+      ],
+      [
+        {
+          "text": "My research lies at the intersection of "
+        },
+        {
+          "text": "Human-Computer Interaction (HCI)",
+          "strong": true
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "Large Language Models (LLMs)",
+          "strong": true
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "Decision-Support Systems",
+          "strong": true
+        },
+        {
+          "text": ", with a strong focus on digital health and high-stakes professional workflows. I investigate how the design of computational systems shapes human agency, oversight, and collaborative reasoning. Across my work, I develop, engineer, and evaluate AI-powered interactive systems—integrating RAG pipelines, multi-mode AI agents, and behavioral telemetry logging with formative and longitudinal human studies—to build trustworthy AI collaborators that augment rather than replace human expertise."
+        }
+      ]
+    ]
+  },
+  "about": {
+    "heading": ["More about", "me"],
+    "description": "My disciplinary background, how I work, and what I do off the clock.",
+    "background": [
+      "Before moving into Information Sciences and Human-Computer Interaction at Penn State, I trained in architectural engineering and computational design. That progression still shapes how I approach research today: I like looking at messy human behavior through an engineer’s lens—treating interfaces, workflows, and AI models as systems that can be measured, stress-tested, and refined.",
+      "Across my doctoral research and industry work at the Laboratory for Analytic Sciences and Willis Towers Watson, my focus has stayed the same: pairing empirical data and statistical modeling with direct human observation to build tools that actually hold up in practice."
+    ],
+    "outsideIntro": "When I’m not working with data or running studies, I spend most of my time around music, 3D fabrication, games, and machines:",
+    "interests": [
+      {
+        "title": "Music",
+        "text": "I played electric guitar for over a decade before finding my true passion behind the drum kit. I mostly play progressive and heavy metal, with favorites including Meshuggah, Dream Theater, Opeth, Gojira, and Tool."
+      },
+      {
+        "title": "Modeling & Fabrication",
+        "text": "Working in 3D space has always been a core passion, and 3D printing brings that full circle by turning digital geometry into tangible, functional objects, custom hardware, and physical props."
+      },
+      {
+        "title": "Games",
+        "text": "Having previously studied games academically, I now play purely to decompress, though it remains my favorite medium for observing complex interactive systems. ARPGs like the Diablo series and MMORPGs like World of Warcraft are my forever games."
+      },
+      {
+        "title": "Car Spotting",
+        "text": "I have a lifelong appreciation for automotive engineering, focusing less on the flashiest exotics and more on quirky builds, sleepers, and mechanical history."
+      }
+    ],
+    "carPhotos": [
+      {
+        "src": "/assets/about/cars/chevrolet-ss-ls3.jpg",
+        "caption": "Chevrolet SS · LS3 sleeper"
+      },
+      {
+        "src": "/assets/about/cars/bmw-e46-m3-phoenix-yellow.jpg",
+        "caption": "BMW E46 M3 · Phoenix Yellow"
+      },
+      {
+        "src": "/assets/about/cars/peugeot-505-turbo-sw8.jpg",
+        "caption": "Peugeot 505 Turbo SW8"
+      },
+      {
+        "src": "/assets/about/cars/ford-model-t-1911.jpg",
+        "caption": "1911 Ford Model T"
+      },
+      {
+        "src": "/assets/about/cars/toyota-classic-1996.jpg",
+        "caption": "Toyota Classic · 1996"
+      },
+      {
+        "src": "/assets/about/cars/volkswagen-caddy-mk1.jpg",
+        "caption": "Volkswagen Caddy Mk1"
+      }
+    ]
+  }
+}

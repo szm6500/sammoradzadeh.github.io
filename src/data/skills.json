@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Programming & Data",
+    "icon": "database",
+    "lines": [
+      "SQL · AWS query pipelines",
+      "Behavioral logs · Telemetry · BI dashboards"
+    ]
+  },
+  {
+    "title": "Statistical & ML Modeling",
+    "icon": "chart-no-axes-combined",
+    "lines": [
+      "Regression · ANOVA · Random forests",
+      "Feature ranking · A/B testing"
+    ]
+  },
+  {
+    "title": "Research Methods",
+    "icon": "users",
+    "lines": [
+      "Co-design · User interviews",
+      "Card sorting · Mixed-methods evaluation"
+    ]
+  },
+  {
+    "title": "Prototyping & Systems",
+    "icon": "layers",
+    "lines": [
+      "3D / VR prototyping · Spatial UI",
+      "Usability pilots · Workflow design"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "tabs": [
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "publications",
+      "label": "Publications"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    }
+  ],
+  "research": {
+    "title": "Research areas",
+    "svgTitle": "Three connected research foundations",
+    "svgDescription": "Hover over a circle to explore its research foundation and concepts. Select a circle to keep its foundation visible."
+  },
+  "selectedExperience": {
+    "title": "Selected experience",
+    "link": "Explore the projects"
+  },
+  "selectedPublications": {
+    "title": "Selected publications",
+    "link": "All publications"
+  },
+  "projects": {
+    "heading": ["Selected", "projects"],
+    "description": "Systems, data pipelines, and mixed-methods studies across healthcare, enterprise, and intelligence analytics.",
+    "open": "Project overview"
+  },
+  "publications": {
+    "heading": ["Publications", ""],
+    "description": "Peer-reviewed research on human-AI collaboration, socio-technical systems, and empirical evaluation.",
+    "types": ["Conference papers", "Journal articles", "Posters & workshops"]
+  },
+  "skills": {
+    "title": "Technical skills",
+    "help": "A mixed-methods toolkit"
+  },
+  "education": "Education",
+  "news": "News & attending",
+  "socials": [
+    {
+      "key": "email",
+      "label": "Email",
+      "icon": "mail"
+    },
+    {
+      "key": "scholar",
+      "label": "Google Scholar",
+      "icon": "graduation-cap"
+    },
+    {
+      "key": "github",
+      "label": "GitHub",
+      "icon": "github"
+    },
+    {
+      "key": "linkedin",
+      "label": "LinkedIn",
+      "icon": "linkedin"
+    }
+  ]
+}

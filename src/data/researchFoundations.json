@@ -1,0 +1,55 @@
+[
+  {
+    "id": "hci",
+    "label": "Human-Computer Interaction",
+    "labelLines": ["Human-Computer", "Interaction"],
+    "foundation": "Sociotechnical Systems",
+    "concepts": [
+      "Agency",
+      "Collaboration",
+      "Safety",
+      "Governance",
+      "Manipulation",
+      "Deception",
+      "Risk-Taking"
+    ],
+    "geometry": { "cx": 160, "cy": 94.4, "x": 160, "y": 50 },
+    "color": "#5856D6",
+    "fill": "rgba(88, 86, 214, 0.11)",
+    "labelColor": "#3634A3"
+  },
+  {
+    "id": "llms",
+    "label": "Large Language Models",
+    "labelLines": ["Large Language", "Models"],
+    "foundation": "Human–AI Interaction",
+    "concepts": [
+      "Teaming",
+      "Trust",
+      "Autonomy",
+      "Human Oversight",
+      "Decision-Making"
+    ],
+    "geometry": { "cx": 100, "cy": 190.4, "x": 76, "y": 217 },
+    "color": "#007AFF",
+    "fill": "rgba(0, 122, 255, 0.11)",
+    "labelColor": "#0040DD"
+  },
+  {
+    "id": "decision-support-systems",
+    "label": "Decision-Support Systems",
+    "labelLines": ["Decision-Support", "Systems"],
+    "foundation": "Applied AI Systems",
+    "concepts": [
+      "Clinical Reasoning",
+      "Decision Support",
+      "Professional Workflows",
+      "System Evaluation",
+      "Human-Centered AI"
+    ],
+    "geometry": { "cx": 220, "cy": 190.4, "x": 252, "y": 232 },
+    "color": "#30B0C7",
+    "fill": "rgba(48, 176, 199, 0.12)",
+    "labelColor": "#007180"
+  }
+]

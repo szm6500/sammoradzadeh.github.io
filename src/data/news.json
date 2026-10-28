@@ -1,0 +1,385 @@
+{
+  "items": [
+    {
+      "date": "Oct 2026",
+      "isoDate": "2026-10-cscw",
+      "content": [
+        {
+          "text": "Presented a poster on clinician–AI interaction at CSCW in Salt Lake City, Utah."
+        }
+      ]
+    },
+    {
+      "date": "Sep 2026",
+      "isoDate": "2026-09-hcomp-ci",
+      "content": [
+        {
+          "text": "Attended and co-organized a human–AI teaming workshop at HCOMP/CI in Alexandria, Virginia."
+        }
+      ]
+    },
+    {
+      "date": "Jul 2026",
+      "isoDate": "2026-07-cscw",
+      "content": [
+        {
+          "text": "Poster on clinician–AI interaction accepted for presentation at CSCW."
+        }
+      ]
+    },
+    {
+      "date": "Jun 2026",
+      "isoDate": "2026-06-hcomp-ci",
+      "content": [
+        {
+          "text": "Human–AI teaming workshop accepted for HCOMP/CI in September."
+        }
+      ]
+    },
+    {
+      "date": "May 2026",
+      "isoDate": "2026-05",
+      "content": [
+        { "text": "Awarded Second Place in the " },
+        {
+          "text": "Department",
+          "href": "https://ist.psu.edu/about/departments/department-human-centered-computing-social-informatics"
+        },
+        { "text": " 2026 Graduate Research Excellence Award." }
+      ]
+    },
+    {
+      "date": "Apr 2026",
+      "isoDate": "2026-04",
+      "content": [
+        { "text": "Poster accepted to be presented at the " },
+        {
+          "text": "IST Student Success Showcase",
+          "href": "https://ist.psu.edu/current-students/current-undergraduate-students/student-engagement/student-success-showcase"
+        },
+        { "text": "." }
+      ]
+    },
+    {
+      "date": "Mar 2026",
+      "isoDate": "2026-03",
+      "content": [
+        { "text": "Selected to attend " },
+        { "text": "HCIC", "href": "https://hcic.org/" },
+        {
+          "text": " in Estes Park, Colorado. Let’s connect if you’ll be attending!"
+        }
+      ]
+    },
+    {
+      "date": "Jan 2026",
+      "isoDate": "2026-01",
+      "content": [
+        {
+          "text": "Leading a research study on the development of a clinician-facing AI assistance application."
+        }
+      ]
+    }
+  ],
+  "archive": [
+    {
+      "year": "2025",
+      "items": [
+        {
+          "date": "Dec 2025",
+          "isoDate": "2025-12",
+          "content": [
+            {
+              "text": "Successfully passed my comprehensive exam and officially became a PhD candidate!"
+            }
+          ]
+        },
+        {
+          "date": "Nov 2025",
+          "isoDate": "2025-11",
+          "content": [
+            { "text": "Featured in a " },
+            {
+              "text": "newsletter spotlight",
+              "href": "https://ncsu-las.org/2025/10/meet-the-las-interns-2/"
+            },
+            { "text": " for my experience working with LAS." }
+          ]
+        },
+        {
+          "date": "Oct 2025",
+          "isoDate": "2025-10",
+          "content": [
+            { "text": "Presented my first-author " },
+            {
+              "text": "paper",
+              "href": "https://dl.acm.org/doi/abs/10.1145/3748616"
+            },
+            { "text": " at " },
+            {
+              "text": "CHI PLAY 2025",
+              "href": "https://chiplay.acm.org/2025/"
+            },
+            { "text": ", held at CMU in Pittsburgh." }
+          ]
+        },
+        {
+          "date": "Sep 2025",
+          "isoDate": "2025-09",
+          "content": [
+            {
+              "text": "Received a $1,070 IST Travel Grant to support conference participation."
+            }
+          ]
+        },
+        {
+          "date": "Aug 2025",
+          "isoDate": "2025-08-tapia",
+          "content": [
+            { "text": "Received the College of IST Award to attend " },
+            {
+              "text": "TAPIA 2025",
+              "href": "https://tapiaconference.cmd-it.org/"
+            },
+            { "text": " in Dallas, TX." }
+          ]
+        },
+        {
+          "date": "Aug 2025",
+          "isoDate": "2025-08-chiplay",
+          "content": [
+            { "text": "Two papers accepted to " },
+            {
+              "text": "CHI PLAY 2025",
+              "href": "https://chiplay.acm.org/2025/"
+            },
+            { "text": " — one as " },
+            {
+              "text": "first author",
+              "href": "https://dl.acm.org/doi/abs/10.1145/3748616"
+            },
+            { "text": " and one as " },
+            {
+              "text": "second author",
+              "href": "https://dl.acm.org/doi/abs/10.1145/3748626"
+            },
+            { "text": "." }
+          ]
+        },
+        {
+          "date": "Jun 2025",
+          "isoDate": "2025-06",
+          "content": [
+            { "text": "Began my summer UX Internship at " },
+            { "text": "WTW", "href": "https://www.wtwco.com/en-us" },
+            { "text": "." }
+          ]
+        },
+        {
+          "date": "May 2025",
+          "isoDate": "2025-05",
+          "content": [
+            { "text": "Started a UX Research contract with the " },
+            {
+              "text": "Laboratory for Analytic Sciences",
+              "href": "https://ncsu-las.org/"
+            },
+            { "text": " (LAS)." }
+          ]
+        },
+        {
+          "date": "Apr 2025",
+          "isoDate": "2025-04",
+          "content": [
+            {
+              "text": "My literature review on the state of video games in CSCW was accepted for publication in "
+            },
+            {
+              "text": "JCSCW",
+              "href": "https://link.springer.com/article/10.1007/s10606-025-09519-z"
+            },
+            { "text": "." }
+          ]
+        },
+        {
+          "date": "Jan 2025",
+          "isoDate": "2025-01",
+          "content": [
+            { "text": "My research was featured in a Penn State News " },
+            {
+              "text": "article",
+              "href": "https://www.psu.edu/news/research/story/five-ways-fake-mobile-games-fail-meet-advertised-expectations"
+            },
+            { "text": "." }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "items": [
+        {
+          "date": "Oct 2024",
+          "isoDate": "2024-10",
+          "content": [
+            {
+              "text": "Presented my first-author paper at CHI PLAY 2024 in Tampere, Finland."
+            }
+          ]
+        },
+        {
+          "date": "Aug 2024",
+          "isoDate": "2024-08",
+          "content": [
+            { "text": "Elected as the Event Planner of the " },
+            {
+              "text": "Graduate Student Association in Information Sciences and Technology",
+              "href": "https://sites.psu.edu/istgrad/"
+            },
+            { "text": "." }
+          ]
+        },
+        {
+          "date": "Jul 2024",
+          "isoDate": "2024-07",
+          "content": [
+            { "text": "Selected as a nominee to attend the " },
+            {
+              "text": "Human-Computer Interaction Consortium",
+              "href": "https://hcic.org/"
+            },
+            { "text": ", Madison, WI." }
+          ]
+        },
+        {
+          "date": "Jun 2024",
+          "isoDate": "2024-06",
+          "content": [
+            { "text": "Three papers accepted to " },
+            {
+              "text": "CHI PLAY 2024",
+              "href": "https://chiplay.acm.org/2024/"
+            },
+            {
+              "text": ". My first-author paper received an Honorable Mention Award."
+            }
+          ]
+        },
+        {
+          "date": "May 2024",
+          "isoDate": "2024-05-chi",
+          "content": [
+            {
+              "text": "Attended CHI 2024 on-site in Hawaii and presented a second-author paper."
+            }
+          ]
+        },
+        {
+          "date": "May 2024",
+          "isoDate": "2024-05-exam",
+          "content": [
+            { "text": "Successfully passed my oral and written " },
+            {
+              "text": "PhD Qualifying Exam",
+              "href": "https://gradschool.psu.edu/graduate-education-policies/gcac/gcac-600/gcac-604-qualifying-exam"
+            },
+            { "text": "." }
+          ]
+        },
+        {
+          "date": "Jan 2024",
+          "isoDate": "2024-01",
+          "content": [
+            { "text": "One paper was accepted to " },
+            { "text": "CHI 2024", "href": "https://chi2024.acm.org/" },
+            { "text": "." }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "items": [
+        {
+          "date": "Aug 2023",
+          "isoDate": "2023-08",
+          "content": [
+            { "text": "Started my PhD program in " },
+            {
+              "text": "Informatics, specializing in Human-Computer Interaction",
+              "href": "https://ist.psu.edu/research/areas/human-computer-interaction"
+            },
+            { "text": " at Penn State." }
+          ]
+        },
+        {
+          "date": "Jun 2023",
+          "isoDate": "2023-06",
+          "content": [
+            { "text": "Successfully defended and passed my " },
+            {
+              "text": "Master's thesis",
+              "href": "https://www.linkedin.com/posts/sam-moradzadeh_im-thrilled-to-share-that-i-successfully-activity-7073060236219072512-GLol?utm_source=share&utm_medium=member_desktop"
+            },
+            { "text": " at Penn State." }
+          ]
+        },
+        {
+          "date": "Jan 2023",
+          "isoDate": "2023-01",
+          "content": [
+            { "text": "Recipient of the " },
+            {
+              "text": "Distinguished Master's Thesis Award",
+              "href": "https://www.linkedin.com/posts/sam-moradzadeh_i-am-thrilled-to-announce-that-i-have-been-activity-7054677745334693888-XEsp?utm_source=share&utm_medium=member_desktop"
+            },
+            { "text": "." }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "items": [
+        {
+          "date": "Oct 2022",
+          "isoDate": "2022-10",
+          "content": [
+            { "text": "Attended " },
+            { "text": "ACADIA", "href": "http://acadia.org/features/G2AEZK" },
+            { "text": " conference with one paper accepted." }
+          ]
+        },
+        {
+          "date": "May 2022",
+          "isoDate": "2022-05",
+          "content": [
+            { "text": "Accepted poster at " },
+            {
+              "text": "Design Computing and Cognition 2022",
+              "href": "https://sites.google.com/view/dcc22/"
+            },
+            { "text": ", University of Strathclyde, Glasgow, Scotland, UK." }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "items": [
+        {
+          "date": "Aug 2021",
+          "isoDate": "2021-08",
+          "content": [
+            { "text": "Started my Master of Science in " },
+            {
+              "text": "Design Computing",
+              "href": "https://arts.psu.edu/academics/department-of-architecture/design-computing"
+            },
+            { "text": " at Penn State." }
+          ]
+        }
+      ]
+    }
+  ]
+}

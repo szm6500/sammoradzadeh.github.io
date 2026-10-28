@@ -1,0 +1,30 @@
+[
+  {
+    "id": "experience-whil",
+    "org": "Wellbeing & Health Innovation Lab (Penn State)",
+    "role": "Doctoral Researcher",
+    "date": "Aug 2024 – Present",
+    "summary": "Designing and evaluating collaborative AI systems and behavioral data workflows for clinical mental health care."
+  },
+  {
+    "id": "experience-las",
+    "org": "Laboratory for Analytic Sciences (NC State)",
+    "role": "UX Research Scientist",
+    "date": "May 2025 – Dec 2025",
+    "summary": "Modeling operational workflows and readiness frameworks for multi-sector national security research."
+  },
+  {
+    "id": "experience-wtw",
+    "org": "Willis Towers Watson (WTW)",
+    "role": "UX Research Intern",
+    "date": "Jun 2025 – Aug 2025",
+    "summary": "Investigating large-scale user behavior and AI decision-support across enterprise financial and benefits platforms."
+  },
+  {
+    "id": "experience-cie",
+    "org": "Center for Immersive Experiences (Penn State)",
+    "role": "Virtual Reality Developer",
+    "date": "May 2022 – Jul 2022",
+    "summary": "Prototyping multi-user 3D spatial environments and evaluating human interaction in virtual reality."
+  }
+]
