@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import profile from "./data/profile.json";
+import { useState } from "react";
 import copy from "./data/copy.json";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
@@ -14,9 +13,6 @@ import useHashNavigation from "./hooks/useHashNavigation";
 export default function App() {
   const { activeTab, navigate, route, pulseId } = useHashNavigation();
   const [citation, setCitation] = useState(null);
-  useEffect(() => {
-    document.title = `${profile.name === "Your Name" ? "Research Portfolio" : profile.name} · Human-Centered AI`;
-  }, []);
   const pages = {
     home: <Home pulseId={pulseId} onCitation={setCitation} />,
     projects: <Projects />,
