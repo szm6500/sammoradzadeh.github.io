@@ -15,7 +15,7 @@
       "phenomena": ["Agency", "Deception"]
     },
     "acceptanceRate": "18%",
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:0EnyYjriUFMC",
+    "pdf": "assets/papers/moradzadeh-2025-fake-game-but-real-play.pdf",
     "dataset": "",
     "bibtex": "@article{moradzadeh2025fake,\n  author = {Moradzadeh, Sam and Oh, Jeffrey Seihoon and Gui, Xinning and Kou, Yubo},\n  title = {Fake Game but Real Play: Exploring Player Motivations and Coping Strategies with Fake Games},\n  journal = {Proceedings of the ACM on Human-Computer Interaction},\n  volume = {9},\n  note = {CHI PLAY, Article 321},\n  year = {2025}\n}",
     "awards": []
@@ -36,7 +36,7 @@
       "phenomena": ["Manipulation", "Risk-Taking"]
     },
     "acceptanceRate": "18%",
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:hqOjcs7Dif8C",
+    "pdf": "assets/papers/zhang-2025-predatory-monetization-user-generated-games.pdf",
     "dataset": "",
     "bibtex": "@article{zhang2025predatory,\n  author = {Zhang, Zinan and Moradzadeh, Sam and Gui, Xinning and Kou, Yubo},\n  title = {More Than Just Microtransactions: Predatory Monetization in User-Generated Games},\n  journal = {Proceedings of the ACM on Human-Computer Interaction},\n  volume = {9},\n  note = {CHI PLAY, Article 322},\n  year = {2025}\n}",
     "awards": []
@@ -57,7 +57,7 @@
       "phenomena": ["Deception", "Governance"]
     },
     "acceptanceRate": "23%",
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:LkGwnXOMwfcC",
+    "pdf": "assets/papers/moradzadeh-2024-fake-games-mixed-methods.pdf",
     "dataset": "",
     "bibtex": "@inproceedings{moradzadeh2024unpacking,\n  author = {Moradzadeh, Sam and Kou, Yubo},\n  title = {\"Wow Another Fake Game from YouTube Ad\": Unpacking Fake Games Through a Mixed-Methods Investigation},\n  booktitle = {Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play},\n  year = {2024}\n}",
     "awards": ["Best Paper Honorable Mention Award"]
@@ -78,7 +78,7 @@
       "phenomena": ["Governance", "Safety", "Collaboration"]
     },
     "acceptanceRate": "23%",
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:_FxGoFyzp5QC",
+    "pdf": "assets/papers/moradzadeh-2024-harmful-design-roblox.pdf",
     "dataset": "",
     "bibtex": "@inproceedings{zhang2024harmful,\n  author = {Zhang, Zinan and Moradzadeh, Sam and Gui, Xinning and Kou, Yubo},\n  title = {Harmful Design in User-Generated Games and its Ethical and Governance Challenges: An Investigation of Design Co-Ideation of Game Creators on Roblox},\n  booktitle = {Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play},\n  year = {2024}\n}",
     "awards": ["Best Paper Honorable Mention Award"]
@@ -98,7 +98,7 @@
       "technology": ["Online Games"],
       "phenomena": ["Safety", "Collaboration"]
     },
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:roLk4NBRz8UC",
+    "pdf": "assets/papers/moradzadeh-2024-toxicity-by-game-design.pdf",
     "dataset": "",
     "bibtex": "@inproceedings{zhang2024toxicity,\n  author = {Zhang, Zinan and Moradzadeh, Sam and Woan, Andrew and Kou, Yubo},\n  title = {Toxicity by Game Design: How Players Perceive the Influence of Game Design on Toxicity},\n  booktitle = {Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play},\n  year = {2024}\n}",
     "awards": []
@@ -119,7 +119,7 @@
       "phenomena": ["Risk-Taking", "Decision-Making"]
     },
     "acceptanceRate": "26.4%",
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:ufrVoPGSRksC",
+    "pdf": "assets/papers/moradzadeh-2024-trading-as-gambling.pdf",
     "dataset": "",
     "bibtex": "@inproceedings{kou2024trading,\n  author = {Kou, Yubo and Moradzadeh, Sam and Gui, Xinning},\n  title = {Trading as Gambling: Social Investing and Financial Risks on the r/WallStreetBets Subreddit},\n  booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},\n  year = {2024}\n}",
     "awards": []
@@ -134,7 +134,7 @@
     "authors": "Farzaneh Oghazian, Sam Moradzadeh, Felecia Davis",
     "takeaway": "Hybrids and Haecceities: Proceedings of the 42nd Annual Conference of the Association for Computer Aided Design in Architecture, pp. 326–333.",
     "pillars": [],
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:eQOLeE2rZwMC",
+    "pdf": "assets/papers/oghazian-2022-form-finding-knitted-tensioned-structures.pdf",
     "dataset": "",
     "bibtex": "@inproceedings{oghazian2022form,\n  author = {Oghazian, Farzaneh and Moradzadeh, Sam and Davis, Felecia},\n  title = {Form-Finding of Architectural Knitted Tensioned Structures},\n  booktitle = {Hybrids and Haecceities: Proceedings of the 42nd Annual Conference of the Association for Computer Aided Design in Architecture},\n  pages = {326--333},\n  year = {2022}\n}",
     "awards": []
@@ -149,7 +149,7 @@
     "authors": "Sam Moradzadeh, Ahad Nejad Ebrahimi",
     "takeaway": "In Proceedings of the Bridges 2020 Conference, pp. 35–40.",
     "pillars": [],
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:u-x6o8ySG0sC",
+    "pdf": "assets/papers/moradzadeh-2020-3d-aperiodic-girih-tiles.pdf",
     "dataset": "",
     "bibtex": "@inproceedings{moradzadeh2020girih,\n  author = {Moradzadeh, Sam and Nejad Ebrahimi, Ahad},\n  title = {3D Aperiodic Girih Tiles},\n  booktitle = {Proceedings of the Bridges 2020 Conference},\n  pages = {35--40},\n  year = {2020}\n}",
     "awards": []
@@ -169,7 +169,7 @@
       "technology": ["Video Games"],
       "phenomena": ["Collaboration"]
     },
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:Se3iqnhoufwC",
+    "pdf": "assets/papers/moradzadeh-2025-video-game-research-in-cscw.pdf",
     "dataset": "",
     "bibtex": "@article{moradzadeh2025state,\n  author = {Moradzadeh, Sam and Zhang, Zinan and Gui, Xinning and Kou, Yubo},\n  title = {The State of Video Game Research in Computer-Supported Cooperative Work -- A Systematic Literature Review},\n  journal = {Computer Supported Cooperative Work: The Journal of Collaborative Computing and Work Practices},\n  volume = {34},\n  number = {2},\n  pages = {587--638},\n  year = {2025}\n}",
     "awards": []
@@ -185,7 +185,7 @@
     "takeaway": "Nexus Network Journal: Architecture and Mathematics, Vol. 22, No. 3, pp. 777–798.",
     "pillars": [],
     "highlights": ["Featured on the cover"],
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:u5HHmVD_uO8C",
+    "pdf": "assets/papers/moradzadeh-2020-geometric-patterns-higher-dimensions.pdf",
     "dataset": "",
     "bibtex": "@article{moradzadeh2020islamic,\n  author = {Moradzadeh, Sam and Nejad Ebrahimi, Ahad},\n  title = {Islamic Geometric Patterns in Higher Dimensions},\n  journal = {Nexus Network Journal: Architecture and Mathematics},\n  volume = {22},\n  number = {3},\n  pages = {777--798},\n  year = {2020}\n}",
     "awards": []
@@ -245,9 +245,28 @@
       ]
     },
     "acceptanceRate": "31%",
-    "pdf": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q_BC5_4AAAAJ&citation_for_view=Q_BC5_4AAAAJ:5nxA0vEk-isC",
+    "pdf": "assets/papers/moradzadeh-2026-i-am-the-gatekeeper.pdf",
     "dataset": "",
     "bibtex": "@inproceedings{moradzadeh2026gatekeeper,\n  author = {Moradzadeh, Sam and Sherrill, Andrew M. and Wiese, Christopher W. and Arriaga, Rosa I. and Abdullah, Saeed},\n  title = {\"I Am the Gatekeeper\": Clinician Visions of AI Collaboration in Exposure Therapy},\n  booktitle = {Companion Publication of the 2026 Conference on Computer Supported Cooperative Work and Social Computing},\n  doi = {10.1145/3785651.3831522},\n  year = {2026}\n}",
+    "awards": []
+  },
+  {
+    "id": "gamblification-twitch",
+    "venue": "CHI PLAY",
+    "year": 2026,
+    "type": "Paper",
+    "label": "From stream to stake",
+    "title": "From Stream to Stake: Gamblification Practices and User Perceptions on Twitch",
+    "authors": "Yunhan Liu, Sam Moradzadeh, Qiurong Song, Yubo Kou, Xinning Gui",
+    "takeaway": "Proceedings of the ACM on Human-Computer Interaction, Vol. 10, No. 7, Article GAMES031.",
+    "pillars": ["ds", "eval"],
+    "dimensions": {
+      "technology": ["Social Media"],
+      "phenomena": ["Governance", "Risk-Taking"]
+    },
+    "pdf": "assets/papers/liu-2026-from-stream-to-stake-twitch-gamblification.pdf",
+    "dataset": "",
+    "bibtex": "@article{10.1145/3831281,\n  author = {Liu, Yunhan and Moradzadeh, Sam and Song, Qiurong and Kou, Yubo and Gui, Xinning},\n  title = {From Stream to Stake: Gamblification Practices and User Perceptions on Twitch},\n  year = {2026},\n  issue_date = {November 2026},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  volume = {10},\n  number = {7},\n  url = {https://doi.org/10.1145/3831281},\n  doi = {10.1145/3831281},\n  journal = {Proc. ACM Hum.-Comput. Interact.},\n  month = nov,\n  articleno = {GAMES031},\n  numpages = {39},\n  keywords = {Human-centered computing ∼ Human computer interaction (HCI) ∼ Empirical studies in HCI., Gamblification, Live Streaming, Twitch.tv, User Engagement, Virtual Ethnography}\n}",
     "awards": []
   },
   {

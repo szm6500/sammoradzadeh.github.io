@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "date": "Nov 2026",
+      "isoDate": "2026-11",
+      "content": [
+        {
+          "text": "Second-author "
+        },
+        {
+          "text": "paper",
+          "href": "https://doi.org/10.1145/3831281"
+        },
+        {
+          "text": " on Twitch practices and user perceptions published at CHI PLAY 2026."
+        }
+      ]
+    },
+    {
       "date": "Oct 2026",
       "isoDate": "2026-10-cscw",
       "content": [
