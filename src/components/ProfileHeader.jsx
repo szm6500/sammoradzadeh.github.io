@@ -29,7 +29,7 @@ export default function ProfileHeader() {
       </div>
       <div className="profile-header-details">
         {/* <p className="eyebrow profile-header-eyebrow">Research profile</p> */}
-        <h2 className="profile-name">{profile.name}</h2>
+        <h1 className="profile-name">{profile.name}</h1>
         <p className="profile-role">
           {profile.role.map((line, index) => (
             <Fragment key={line}>

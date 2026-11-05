@@ -452,16 +452,17 @@ button {
 .intro {
   padding: 28px 0 0;
 }
-h1 {
+h1,
+.intro h2 {
   font-size: clamp(29px, 3.05vw, 42px);
   line-height: 1.24;
   font-weight: 650;
   letter-spacing: -0.055em;
 }
-.intro h1 span {
+.intro h2 span {
   color: #64748b;
 }
-.intro h1 .intro-title-plus {
+.intro h2 .intro-title-plus {
   color: var(--subtle);
 }
 .intro-copy {
@@ -2014,7 +2015,7 @@ body.modal-open {
   .filter-pill {
     font-size: 8px;
   }
-  .intro h1 {
+  .intro h2 {
     font-size: 33px;
   }
 }
@@ -2209,7 +2210,7 @@ body.modal-open {
   .intro {
     padding-top: 23px;
   }
-  .intro h1 {
+  .intro h2 {
     font-size: 34px;
   }
   .intro-copy {
@@ -2299,7 +2300,7 @@ body.modal-open {
   .brand-tag {
     display: none;
   }
-  .intro h1 {
+  .intro h2 {
     font-size: 31px;
   }
   .intro-copy {
@@ -2493,7 +2494,7 @@ body.modal-open {
   .card-top {
     flex-wrap: wrap;
   }
-  .intro h1 {
+  .intro h2 {
     font-size: 28px;
   }
   .sidebar {
@@ -2654,7 +2655,7 @@ body.modal-open {
   .intro {
     padding-top: 24px;
   }
-  .intro h1,
+  .intro h2,
   .page-heading h1 {
     font-size: clamp(30px, 10vw, 38px);
     line-height: 1.08;
@@ -3015,7 +3016,7 @@ body {
 .news-copy {
   font-size: 13px;
 }
-.intro h1,
+.intro h2,
 .page-heading h1 {
   font-size: clamp(32px, 3.2vw, 46px);
 }
@@ -3125,7 +3126,7 @@ body {
   .nav-tab {
     font-size: 12px;
   }
-  .intro h1,
+  .intro h2,
   .page-heading h1 {
     font-size: 36px;
   }
@@ -3152,7 +3153,7 @@ body {
   }
 }
 @media (max-width: 590px) {
-  .intro h1,
+  .intro h2,
   .page-heading h1 {
     font-size: 33px;
   }

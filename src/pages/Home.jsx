@@ -14,7 +14,7 @@ export default function Home({ pulseId, onCitation }) {
     <>
       <ProfileHeader />
       <div className="intro">
-        <h1>
+        <h2>
           {profile.home.heading[0]}
           {profile.home.heading[1] && (
             <>
@@ -25,7 +25,7 @@ export default function Home({ pulseId, onCitation }) {
               <span>{profile.home.heading[1]}</span>
             </>
           )}
-        </h1>
+        </h2>
         <div className="intro-copy">
           {profile.home.bio.map((paragraph) => (
             <p key={paragraph.map((segment) => segment.text).join("")}>
