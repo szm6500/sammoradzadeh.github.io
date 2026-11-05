@@ -3276,3 +3276,8 @@ body {
     min-height: 112px;
   }
 }
+
+.intro > h2 {
+  font-size: clamp(22px, 2.1vw, 27px);
+  line-height: 1.2;
+}
