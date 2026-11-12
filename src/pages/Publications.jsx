@@ -4,6 +4,7 @@ import intersections from "../data/researchIntersections.json";
 import copy from "../data/copy.json";
 import PageHeading from "../components/PageHeading";
 import PublicationList from "../components/PublicationList";
+import { tabPath } from "../utils/routes";
 
 const publicationTypeFilters = {
   "Conference papers": ["Paper"],
@@ -32,7 +33,7 @@ function filterFromUrl() {
 
 export default function Publications({ activeTab, onCitation, pulseId }) {
   const [activeType, setActiveType] = useState("all");
-  const [activeDimension, setActiveDimension] = useState(filterFromUrl);
+  const [activeDimension, setActiveDimension] = useState(null);
 
   useEffect(() => {
     const syncFilter = () => setActiveDimension(filterFromUrl());
@@ -81,14 +82,17 @@ export default function Publications({ activeTab, onCitation, pulseId }) {
     window.history.replaceState(
       null,
       "",
-      `${query ? `?${query}` : ""}#publications`,
+      `${tabPath("publications")}${query ? `?${query}` : ""}`,
     );
   }
 
   return (
     <>
       <div className="wide-page-heading">
-        <PageHeading {...copy.publications} />
+        <PageHeading
+          {...copy.publications}
+          active={activeTab === "publications"}
+        />
       </div>
       <section className="publication-filters" aria-label="Filter publications">
         <label className="filter-select-label" htmlFor="publication-type">

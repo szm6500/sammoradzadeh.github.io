@@ -8,11 +8,12 @@ import VennDiagram from "../components/VennDiagram";
 import ExperienceGrid from "../components/ExperienceGrid";
 import PublicationList from "../components/PublicationList";
 import SectionHeading from "../components/SectionHeading";
+import { tabPath } from "../utils/routes";
 
-export default function Home({ pulseId, onCitation }) {
+export default function Home({ active, pulseId, onCitation }) {
   return (
     <>
-      <ProfileHeader />
+      <ProfileHeader active={active} />
       <div className="intro">
         <h2>
           {profile.home.heading[0]}
@@ -44,7 +45,7 @@ export default function Home({ pulseId, onCitation }) {
         <SectionHeading
           id="selected-pubs-title"
           title={copy.selectedPublications.title}
-          href="#publications"
+          href={tabPath("publications")}
           link={copy.selectedPublications.link}
         />
         <PublicationList

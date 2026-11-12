@@ -3,8 +3,9 @@ import profile from "../data/profile.json";
 import copy from "../data/copy.json";
 import BrandMark from "./BrandMark";
 import Icon from "./Icon";
+import { tabPath } from "../utils/routes";
 
-export default function Navbar({ activeTab, navigate }) {
+export default function Navbar({ activeTab, navigate, standalone = false }) {
   const [menuOpen, setMenuOpen] = useState(false);
   function onKeyDown(event) {
     if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
@@ -18,13 +19,17 @@ export default function Navbar({ activeTab, navigate }) {
           : (index + (event.key === "ArrowRight" ? 1 : -1) + copy.tabs.length) %
             copy.tabs.length;
     const id = copy.tabs[next].id;
-    navigate(`#${id}`);
+    navigate(tabPath(id));
     document.getElementById(`tab-${id}`)?.focus();
   }
   return (
     <header className="topbar">
       <div className="nav-inner">
-        <a className="brand" href="#home" aria-label="Research portfolio home">
+        <a
+          className="brand"
+          href={tabPath("home")}
+          aria-label="Research portfolio home"
+        >
           <span className="brand-mark" aria-hidden="true">
             <BrandMark />
           </span>
@@ -46,20 +51,26 @@ export default function Navbar({ activeTab, navigate }) {
           <nav
             id="primary-navigation"
             className="nav-tabs"
-            role="tablist"
+            role={standalone ? undefined : "tablist"}
             aria-label="Portfolio sections"
-            onKeyDown={onKeyDown}
+            onKeyDown={standalone ? undefined : onKeyDown}
           >
             {copy.tabs.map((tab) => (
               <a
                 className="nav-tab"
                 key={tab.id}
                 id={`tab-${tab.id}`}
-                href={`#${tab.id}`}
-                role="tab"
-                aria-selected={activeTab === tab.id}
-                aria-controls={tab.id}
-                tabIndex={activeTab === tab.id ? 0 : -1}
+                href={tabPath(tab.id)}
+                {...(standalone
+                  ? {
+                      "aria-current": activeTab === tab.id ? "page" : undefined,
+                    }
+                  : {
+                      role: "tab",
+                      "aria-selected": activeTab === tab.id,
+                      "aria-controls": tab.id,
+                      tabIndex: activeTab === tab.id ? 0 : -1,
+                    })}
                 onClick={() => setMenuOpen(false)}
               >
                 {tab.label}

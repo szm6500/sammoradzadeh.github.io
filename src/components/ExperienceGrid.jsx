@@ -2,6 +2,7 @@ import experience from "../data/experience.json";
 import copy from "../data/copy.json";
 import OrganizationBadge from "./OrganizationBadge";
 import SectionHeading from "./SectionHeading";
+import { tabPath } from "../utils/routes";
 
 const organizationMarks = {
   "experience-whil": {
@@ -28,7 +29,7 @@ export default function ExperienceGrid({ pulseId }) {
       <SectionHeading
         id="experience-title"
         title={copy.selectedExperience.title}
-        href="#projects"
+        href={tabPath("projects")}
         link={copy.selectedExperience.link}
       />
       <div className="experience-grid">
@@ -43,7 +44,7 @@ export default function ExperienceGrid({ pulseId }) {
             >
               <a
                 className="experience-row-link"
-                href="#projects"
+                href={tabPath("projects")}
                 aria-label={`View ${item.org} project details`}
               >
                 <div className="experience-row-topline">

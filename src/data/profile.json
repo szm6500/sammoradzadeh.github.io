@@ -16,7 +16,7 @@
     "bio": [
       [
         {
-          "text": "I am a Ph.D. candidate in Information Sciences and Technology at Pennsylvania State University, working in the Wellbeing & Health Innovation Lab. Prior to my Ph.D., I earned my Master of Science degree in Computational Design at Penn State, and have conducted human-centered AI and behavioral analytics research across government and enterprise labs, including the Laboratory for Analytic Sciences and Willis Towers Watson."
+          "text": "I am a Ph.D. candidate in Informatics at Pennsylvania State University, working in the Wellbeing & Health Innovation Lab. Prior to my Ph.D., I earned my Master of Science degree in Computational Design at Penn State, and have conducted human-centered AI and behavioral analytics research across government and enterprise labs, including the Laboratory for Analytic Sciences and Willis Towers Watson."
         }
       ],
       [
@@ -51,7 +51,7 @@
     "heading": ["More about", "me"],
     "description": "My disciplinary background, how I work, and what I do off the clock.",
     "background": [
-      "Before moving into Information Sciences and Human-Computer Interaction at Penn State, I trained in architectural engineering and computational design. That progression still shapes how I approach research today: I like looking at messy human behavior through an engineer’s lens—treating interfaces, workflows, and AI models as systems that can be measured, stress-tested, and refined.",
+      "Before moving into Informatics and Human-Computer Interaction at Penn State, I trained in architectural engineering and computational design. That progression still shapes how I approach research today: I like looking at messy human behavior through an engineer’s lens—treating interfaces, workflows, and AI models as systems that can be measured, stress-tested, and refined.",
       "Across my doctoral research and industry work at the Laboratory for Analytic Sciences and Willis Towers Watson, my focus has stayed the same: pairing empirical data and statistical modeling with direct human observation to build tools that actually hold up in practice."
     ],
     "outsideIntro": "When I’m not working with data or running studies, I spend most of my time around music, 3D fabrication, games, and machines:",
@@ -76,26 +76,32 @@
     "carPhotos": [
       {
         "src": "/assets/about/cars/chevrolet-ss-ls3.jpg",
+        "thumb": "/assets/about/cars/thumbs/chevrolet-ss-ls3.jpg",
         "caption": "Chevrolet SS · LS3 sleeper"
       },
       {
         "src": "/assets/about/cars/bmw-e46-m3-phoenix-yellow.jpg",
+        "thumb": "/assets/about/cars/thumbs/bmw-e46-m3-phoenix-yellow.jpg",
         "caption": "BMW E46 M3 · Phoenix Yellow"
       },
       {
         "src": "/assets/about/cars/peugeot-505-turbo-sw8.jpg",
+        "thumb": "/assets/about/cars/thumbs/peugeot-505-turbo-sw8.jpg",
         "caption": "Peugeot 505 Turbo SW8"
       },
       {
         "src": "/assets/about/cars/ford-model-t-1911.jpg",
+        "thumb": "/assets/about/cars/thumbs/ford-model-t-1911.jpg",
         "caption": "1911 Ford Model T"
       },
       {
         "src": "/assets/about/cars/toyota-classic-1996.jpg",
+        "thumb": "/assets/about/cars/thumbs/toyota-classic-1996.jpg",
         "caption": "Toyota Classic · 1996"
       },
       {
         "src": "/assets/about/cars/volkswagen-caddy-mk1.jpg",
+        "thumb": "/assets/about/cars/thumbs/volkswagen-caddy-mk1.jpg",
         "caption": "Volkswagen Caddy Mk1"
       }
     ]

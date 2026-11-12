@@ -12,6 +12,11 @@ import App from "../App";
 import PublicationList from "../components/PublicationList";
 import CitationDialog from "../components/CitationDialog";
 import { resourceUrl } from "../utils/urls";
+import { paperFromPath, tabFromPath } from "../utils/routes";
+import Paper from "../pages/Paper";
+import NotFound from "../pages/NotFound";
+import { renderToString } from "react-dom/server";
+import { notFoundPage, pages, papers, renderHead } from "../seo";
 import { useState } from "react";
 import baseline from "./fixtures/content.json";
 import profile from "../data/profile.json";
@@ -142,6 +147,8 @@ it("routes tabs, supports arrow navigation, and responds to browser history", as
   await user.click(screen.getByRole("tab", { name: "Projects" }));
   expect(projects()).not.toHaveAttribute("hidden");
   expect(home()).toHaveAttribute("hidden");
+  expect(window.location.pathname).toBe("/projects/");
+  expect(document.title).toBe("Projects · Sam Moradzadeh");
   await user.keyboard("{End}");
   expect(screen.getByRole("tab", { name: "About" })).toHaveFocus();
   expect(document.getElementById("about")).not.toHaveAttribute("hidden");
@@ -150,6 +157,93 @@ it("routes tabs, supports arrow navigation, and responds to browser history", as
     window.dispatchEvent(new HashChangeEvent("hashchange"));
   });
   expect(document.getElementById("publications")).not.toHaveAttribute("hidden");
+  expect(window.location.pathname).toBe("/publications/");
+  expect(window.location.hash).toBe("");
+  act(() => {
+    window.history.pushState(null, "", "/about/");
+    window.dispatchEvent(new PopStateEvent("popstate"));
+  });
+  expect(document.getElementById("about")).not.toHaveAttribute("hidden");
+});
+
+it("prerenders only the requested tab's content", () => {
+  const html = renderToString(<App initialTab="projects" />);
+  const panel = (id) =>
+    new DOMParser().parseFromString(html, "text/html").getElementById(id)
+      .innerHTML;
+  expect(panel("projects")).not.toBe("");
+  for (const id of ["home", "publications", "about"])
+    expect(panel(id)).toBe("");
+  expect(html.match(/<h1[\s>]/g)).toHaveLength(1);
+});
+
+it("renders a 404 page that points back into the site", () => {
+  render(<NotFound />);
+  expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent(
+    "This page doesn’t exist",
+  );
+  expect(screen.getByRole("link", { name: "publications" })).toHaveAttribute(
+    "href",
+    "/publications/",
+  );
+  expect(renderHead(notFoundPage, "https://example.com/")).toContain(
+    '<meta name="robots" content="noindex" />',
+  );
+});
+
+it("maps paths to tabs and paper pages", () => {
+  expect(tabFromPath("/")).toBe("home");
+  expect(tabFromPath("/publications/")).toBe("publications");
+  expect(tabFromPath("/publications")).toBe("publications");
+  expect(tabFromPath("/publications/fake-game-real-play/")).toBeNull();
+  expect(paperFromPath("/publications/fake-game-real-play/")).toBe(
+    "fake-game-real-play",
+  );
+  expect(paperFromPath("/publications/")).toBeNull();
+});
+
+it("renders the tab for the prerendered path", () => {
+  window.history.replaceState(null, "", "/about/");
+  render(<App initialTab="about" />);
+  expect(document.getElementById("about")).not.toHaveAttribute("hidden");
+  expect(home()).toHaveAttribute("hidden");
+});
+
+it("gives each paper with an abstract its own page and Scholar tags", () => {
+  const paper = papers.find((item) => item.id === "fake-game-real-play");
+  render(<Paper publication={paper} />);
+  expect(
+    screen.getByRole("heading", { level: 1, name: paper.title }),
+  ).toBeInTheDocument();
+  expect(screen.getByText(paper.abstract)).toBeInTheDocument();
+  expect(screen.getByRole("link", { name: "PDF" })).toHaveAttribute(
+    "href",
+    "/assets/papers/moradzadeh-2025-fake-game-but-real-play.pdf",
+  );
+  expect(papers).toHaveLength(12);
+  expect(pages.map((page) => page.path)).toContain(
+    "/publications/fake-game-real-play/",
+  );
+
+  const head = renderHead(
+    { path: "/publications/fake-game-real-play/", paper: paper.id },
+    "https://example.com/",
+  );
+  expect(head).toContain(
+    `<meta name="citation_title" content="${paper.title}" />`,
+  );
+  expect(head).toContain(
+    '<meta name="citation_author" content="Moradzadeh, Sam" />',
+  );
+  expect(head).toContain(
+    '<meta name="citation_journal_title" content="Proceedings of the ACM on Human-Computer Interaction" />',
+  );
+  expect(head).toContain(
+    '<meta name="citation_pdf_url" content="https://example.com/assets/papers/moradzadeh-2025-fake-game-but-real-play.pdf" />',
+  );
+  expect(head).toContain(
+    '<link rel="canonical" href="https://example.com/publications/fake-game-real-play/" />',
+  );
 });
 
 it("exposes a keyboard-accessible mobile navigation menu", async () => {
@@ -217,7 +311,7 @@ it("filters publications by Venn dimensions and exposes matching Venn links", ()
       name: "View publications about Players",
       hidden: true,
     }),
-  ).toHaveAttribute("href", "?dimension=people&value=Players#publications");
+  ).toHaveAttribute("href", "/publications/?dimension=people&value=Players");
 });
 
 it("clears dimension filters when returning to Publications through the top navigation", async () => {
@@ -324,12 +418,8 @@ it("keeps missing resources unavailable and resolves configured resources under 
     "https://example.com/paper.pdf",
   );
   vi.stubEnv("BASE_URL", "/research/");
-  expect(resourceUrl("assets/cv.pdf")).toBe(
-    `${window.location.origin}/research/assets/cv.pdf`,
-  );
-  expect(resourceUrl("/assets/cv.pdf")).toBe(
-    `${window.location.origin}/research/assets/cv.pdf`,
-  );
+  expect(resourceUrl("assets/cv.pdf")).toBe("/research/assets/cv.pdf");
+  expect(resourceUrl("/assets/cv.pdf")).toBe("/research/assets/cv.pdf");
   vi.unstubAllEnvs();
 });
 

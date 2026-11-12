@@ -8,6 +8,7 @@
     "title": "Fake Game but Real Play: Exploring Player Motivations and Coping Strategies with Fake Games",
     "authors": "Sam Moradzadeh, Jeffrey Seihoon Oh, Xinning Gui, Yubo Kou",
     "takeaway": "Proceedings of the ACM on Human-Computer Interaction, Vol. 9, CHI PLAY, Article 321.",
+    "abstract": "Fake games are an emerging form of games characterized by misleading advertising (external referent) and perceived inauthenticity in gameplay (internal referent). While previous research has examined game authenticity, deceptive advertising, and game design, there is a lack of understanding about why players engage with fake games despite their deceptive nature and how they cope with the fakeness of these games. To address these questions, we conducted an interview study with 30 mobile game players. Through reflexive thematic analysis, we identified four motivations for playing fake games, such as curiosity and easy entertainment, and four coping mechanisms, including adaptive and reconciled play. We discuss how players uniquely interact with the fakeness of fake games and how these games form a distinct ecosystem at the intersection of digital platforms, digital marketplaces, and game developers. We conclude with implications for research and design to mitigate their impact and improve the gaming environment.",
     "pillars": ["ds", "eval"],
     "dimensions": {
       "people": ["Players"],
@@ -29,6 +30,7 @@
     "title": "More Than Just Microtransactions: Predatory Monetization in User-Generated Games",
     "authors": "Zinan Zhang, Sam Moradzadeh, Xinning Gui, Yubo Kou",
     "takeaway": "Proceedings of the ACM on Human-Computer Interaction, Vol. 9, CHI PLAY, Article 322.",
+    "abstract": "Predatory monetization in video games refers to purchasing systems that hide or postpone the complete financial consequences until players are already deeply committed, both financially and emotionally. These systems manipulate players into spending against their genuine interests, benefiting game companies while causing potential financial harm. This issue has drawn increasing scholarly and societal attention, but little research has explored how players perceive the influence of predatory monetization on their gaming experiences. Through an interview study with 23 players of popular user-generated games hosted on platforms such as Roblox and Minecraft and a reflexive thematic analysis, we identified three key influences of predatory monetization: felt manipulation, monetized interpersonal relationships, and risks with mitigation strategies. We further describe social monetization, where monetization and players’ social experiences are closely intertwined, as well as the ecosystem of predatory monetization, where multiple stakeholders play interconnected roles in enabling and sustaining predatory monetization practices. Finally, we offer design implications for mitigating the negative influences of predatory monetization.",
     "pillars": ["ds", "eval"],
     "dimensions": {
       "people": ["Players"],
@@ -50,6 +52,7 @@
     "title": "“Wow another fake game from YouTube ad”: Unpacking Fake Games Through a Mixed-Methods Investigation",
     "authors": "Sam Moradzadeh, Yubo Kou",
     "takeaway": "In Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play (CHI PLAY 2024).",
+    "abstract": "Mobile games have become highly popular and profitable. While much work has been done to understand deceptive patterns of games and some unethical practices they apply, little is known about fake games, an emergent phenomenon in mobile gaming. To answer this question, we conducted two studies: a walkthrough method to characterize fake games, and a thematic analysis of user reviews to gain understanding from the user perspective. We found five types of misalignments that render a game fake and identified four primary facets of player experience with fake games. These misalignments act as realization points in the users’ decision-making to define games as being fake. We discuss the fakeness of fake games, how the formation of an ecosystem helps with the circulation of fakeness, as well as challenges to governing fake games. Lastly, we propose implications for research and design on how to mitigate and identify fake games.",
     "pillars": ["ds", "eval"],
     "dimensions": {
       "people": ["Players"],
@@ -71,6 +74,7 @@
     "title": "Harmful Design in User-Generated Games and its Ethical and Governance Challenges: An Investigation of Design Co-Ideation of Game Creators on Roblox",
     "authors": "Zinan Zhang, Sam Moradzadeh, Xinning Gui, Yubo Kou",
     "takeaway": "In Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play (CHI PLAY 2024).",
+    "abstract": "An increasing number of game platforms, such as Roblox, enable game creators to develop user-generated games (UGGs). Yet, these platforms often come under scrutiny for hosting UGGs that contain harmful content, ranging from sexually explicit material to Nazi-themed roleplay. Limited attention has been paid to how harmful UGGs are ideated by game creators. To address this question, we studied an online Roblox creator community, where Roblox creators collectively engage in design ideation to brainstorm design ideas for UGGs. Through an inductive thematic analysis, we found three primary ways where Roblox creators’ design ideation becomes risky, including how Roblox creators generate risky game design ideas, navigate through policy boundaries to develop these ideas, and share strategies of bypassing moderation. Based on our findings, we discuss ethical and governance challenges facing user-generated games. We propose design implications to support game creators in developing ethical game design ideas and safe game designs.",
     "pillars": ["eval"],
     "dimensions": {
       "people": ["Creators"],
@@ -92,6 +96,7 @@
     "title": "Toxicity by Game Design: How Players Perceive the Influence of Game Design on Toxicity",
     "authors": "Zinan Zhang, Sam Moradzadeh, Andrew Woan, Yubo Kou",
     "takeaway": "In Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play (CHI PLAY 2024).",
+    "abstract": "Toxicity in online games refers to behaviors where players disrupt the gaming experience of others, leading to adverse outcomes such as depression and low self-esteem. Although scholars have identified various factors contributing to toxicity, ranging from individual motivations to team dynamics to cultural backgrounds, the role of game design has been less frequently discussed. To bridge this gap, we conducted an interview study to explore players’ perceptions of how game design influences toxicity. Our research identified four game design elements that participants perceived as contributing factors to the emergency of toxicity in their experiences: team interdependency, fairness, interaction design, and privacy. These findings help us shed light on how game design unintendedly triggers toxic intentions, exposes players to vulnerability, making them potential victims, and affects player interactions which lead to toxicity. We further propose design implications that can mitigate toxicity in online games.",
     "pillars": ["eval"],
     "dimensions": {
       "people": ["Players"],
@@ -112,6 +117,7 @@
     "title": "Trading as Gambling: Social Investing and Financial Risks on the r/WallStreetBets Subreddit",
     "authors": "Yubo Kou, Sam Moradzadeh, Xinning Gui",
     "takeaway": "In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI 2024).",
+    "abstract": "Financial trading has become commonplace, involving the purchase and sale of securities such as stocks and bonds. While HCI research has investigated people’s financial literacy and decision-making and how to design for it, little is known as to how people form financial conversations on social media. To answer this question, we used a grounded theory approach to analyzing financial conversations in the YOLO (‘you only live once’) posts on the r/WallStreetBets subreddit (WSB), one of today’s largest financial online communities. We describe how WSB’s discursive culture portrays its gambling-like, high-risk trading by likening trading to gambling, celebrating it, and normalizing financial risk-taking. We discuss the rise of social investing, including how individual investors’ affective relationships encourage their outsized risk-taking, as well as reflect on its looming financial risks, especially to already marginalized groups. Lastly, we propose implications for design and policymaking.",
     "pillars": ["ds", "eval"],
     "dimensions": {
       "people": ["Investors"],
@@ -133,6 +139,7 @@
     "title": "Form-Finding of Architectural Knitted Tensioned Structures",
     "authors": "Farzaneh Oghazian, Sam Moradzadeh, Felecia Davis",
     "takeaway": "Hybrids and Haecceities: Proceedings of the 42nd Annual Conference of the Association for Computer Aided Design in Architecture, pp. 326–333.",
+    "abstract": "This study discusses the form-finding process of tensile structures and specially knitted tensioned structures. The performance of different plugins in Grasshopper is investigated for behavioral simulation of architectural knitted tensioned structures. Whereas multi-directionality and flexibility are the main characteristics of knitted textiles and allow these materials to be used to develop more complex architectural shapes, such characteristics also make digital simulation of knitted textiles more challenging. We explore the extent to which available tools can assist during the design process. Firstly, the theoretical aspects of the form-finding of tensile structural systems are discussed. Secondly, the form-finding and analysis of knitted textile structures are explored using Kangaroo2 along with K2 Engineering and Kiwi!3D. The performance of these tools is judged by comparing the digital form-found model against the actual physical model behavior and shape. Results shows that Kangaroo2 is a faster tool than Kiwi!3D when the actual stitch distribution is applied to generate the initial shape; additionally, tuning the length of the mesh edges to replicate the physical model behavior is easier in Kangaroo2. On the other hand, Kiwi!3D is a faster tool if a rough initial simulation for gaining insights into overall form. While Kangaroo2 yields a more detailed and accurate form-found shape, for the FE structural analysis it needs to be coupled with K2 Engineering, or the output of the form-finding from Kangaroo2 can be used as an input for FE analyses using Kiwi!3D. Rather than competing with each other, these software environments are different problem solving approaches; the process requires alternating between these plugins to achieve the project goal. The research shows that in using materials such as knitted textiles to develop architectural forms, successful digital modeling can be obtained by form-finding through the material instead of form-finding onto the material.",
     "pillars": [],
     "pdf": "assets/papers/oghazian-2022-form-finding-knitted-tensioned-structures.pdf",
     "dataset": "",
@@ -148,6 +155,7 @@
     "title": "3D Aperiodic Girih Tiles",
     "authors": "Sam Moradzadeh, Ahad Nejad Ebrahimi",
     "takeaway": "In Proceedings of the Bridges 2020 Conference, pp. 35–40.",
+    "abstract": "The purpose of this paper is to develop the Islamic geometric patterns from planar coordinates to three dimensions with aperiodic symmetry. We are proposing techniques that cover four families of girih: acute, median, obtuse, and two-point tessellation by using the historical method, polygons in contact (PIC), in our pattern production. What’s more, we employ Penrose P2 and P3 prototiles as our main template. This study effectively answers the question regarding the gap between planar design from medieval Islamic architecture and contemporary demands in modern art and design.",
     "pillars": [],
     "pdf": "assets/papers/moradzadeh-2020-3d-aperiodic-girih-tiles.pdf",
     "dataset": "",
@@ -163,6 +171,7 @@
     "title": "The State of Video Game Research in Computer-Supported Cooperative Work – A Systematic Literature Review",
     "authors": "Sam Moradzadeh, Zinan Zhang, Xinning Gui, Yubo Kou",
     "takeaway": "Computer Supported Cooperative Work: The Journal of Collaborative Computing and Work Practices, Vol. 34, No. 2, pp. 587–638.",
+    "abstract": "Video games have been a unique study context for computer-supported cooperative work (CSCW) researchers for decades. However, despite their collaborative richness, CSCW has not yet developed a systematic understanding of video games as a site for studying cooperation and social interaction—limiting its ability to engage with the increasingly social, digital, and playful nature of work. Particularly, what are the academic characteristics of video game studies? What topics are studied in the context of video games? And what are the unique facets of the video game context? To answer these questions, we conducted a systematic literature review by analyzing 67 studies of video games published in CSCW outlets between 1998 and 2023. We describe these studies’ academic characteristics and the topics studied in the context of video games through seven themes. We further identify six unique facets of collaborative work that scholars gain through game studies. We conclude that video games not only serve as an empirically rich site for examining and enriching existing CSCW theories and frameworks, but also constitute unique and oftentimes novel sociotechnical configurations that recontextualize CSCW. We further point to gaps, opportunities, and future directions for CSCW researchers interested in exploring the diverse social and collaborative dynamics in games, thus contributing to a more inclusive and expansive understanding of collaboration in digitally mediated environments.",
     "pillars": ["ds", "eval"],
     "dimensions": {
       "people": ["Players"],
@@ -183,6 +192,7 @@
     "title": "Islamic Geometric Patterns in Higher Dimensions",
     "authors": "Sam Moradzadeh, Ahad Nejad Ebrahimi",
     "takeaway": "Nexus Network Journal: Architecture and Mathematics, Vol. 22, No. 3, pp. 777–798.",
+    "abstract": "The purpose of this paper is to develop the Islamic geometric patterns from planar coordinates to three or higher dimensions through their repeat units. We use historical plane methods, polygons in contact (PIC) and point-joined, in our deductive approaches. The mentioned approach makes use of a novel method of tessellation that generates 3D Islamic patterns called “interior polyhedral stellations”. The outputs showed that both the PIC and point-joined methods have strengths and weaknesses. Point-joined stellations are more efficient for regular repeat units and PIC is suitable for complex designs. These two methods can produce a large range of patterns and can be employed simultaneously. This study effectively answers the question regarding the gap between planar design from Muslim achievements and contemporary demands in modern art and architecture. We also propose techniques for constructing aperiodic three-dimension Islamic geometric patterns tessellation and two-point family.",
     "pillars": [],
     "highlights": ["Featured on the cover"],
     "pdf": "assets/papers/moradzadeh-2020-geometric-patterns-higher-dimensions.pdf",
@@ -229,6 +239,7 @@
     "title": "“I Am the Gatekeeper”: Clinician Visions of AI Collaboration in Exposure Therapy",
     "authors": "Sam Moradzadeh, Andrew M. Sherrill, Christopher W. Wiese, Rosa I. Arriaga, Saeed Abdullah",
     "takeaway": "In Companion Publication of the 2026 Conference on Computer Supported Cooperative Work and Social Computing.",
+    "abstract": "Exposure therapy is one of the most effective treatments for anxiety and trauma-related disorders, yet many trained clinicians avoid it in practice. Its delivery is cognitively, relationally, and creatively demanding in ways that existing AI tools have not addressed. Research on AI in mental healthcare has focused on evaluative systems that score, flag, and recommend, leaving clinicians as consumers of AI outputs rather than partners in clinical reasoning. To understand how clinicians themselves envision AI collaboration, we conducted semi-structured interviews with twelve licensed exposure therapy specialists and analyzed the data through reflexive thematic analysis. We identified four attributes of the ideal AI teammate: a silent in-session observer, a creative partner in hierarchy design, a transparent reasoner, and a collaborator whose autonomy expands incrementally under clinician gatekeeping. We discuss how these attributes form a coherent relational model of human-AI collaboration, which we term relational AI architecture, and conclude with design and research implications for clinical AI.",
     "pillars": ["ai", "eval"],
     "dimensions": {
       "people": ["Clinicians"],
@@ -259,6 +270,7 @@
     "title": "From Stream to Stake: Gamblification Practices and User Perceptions on Twitch",
     "authors": "Yunhan Liu, Sam Moradzadeh, Qiurong Song, Yubo Kou, Xinning Gui",
     "takeaway": "Proceedings of the ACM on Human-Computer Interaction, Vol. 10, No. 7, Article GAMES031.",
+    "abstract": "Gambling has existed as a foundational form of play in human society for a long time. With the development of the digital era, gambling practices have been increasingly incorporated into a wider array of contexts. This evolution is captured by the concept of gamblification—the process of integrating gambling-related content into non-gambling environments. While prior HCI research has examined gambling and gambling-like activities, the specific phenomenon of gamblification remains under-explored. To address this gap, we focus on Twitch.tv, the world’s leading live streaming platform, and conducted two studies: a virtual ethnography to analyze gamblification practices on Twitch, and a thematic analysis of Reddit posts to capture Twitch user perceptions towards these practices. We analyze how these practices relate to livestream content, the technical carriers that enable them, the modes of viewer participation, and how Twitch users perceive and experience them. We then discuss the conditions that enable their emergence, along with the inherent complexity of gamblification and the legal and ethical murkiness surrounding these practices. Building on these insights, we offer implications for platform governance and streamer conduct toward more responsible gamblification practices.",
     "pillars": ["ds", "eval"],
     "dimensions": {
       "technology": ["Social Media"],

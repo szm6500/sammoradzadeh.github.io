@@ -35,13 +35,13 @@ const projectVisuals = {
   },
 };
 
-export default function Projects() {
+export default function Projects({ active }) {
   const [project, setProject] = useState(null);
 
   return (
     <>
       <div className="wide-page-heading">
-        <PageHeading {...copy.projects} />
+        <PageHeading {...copy.projects} active={active} />
       </div>
       <div className="projects-grid">
         {projects.map((item, index) => {

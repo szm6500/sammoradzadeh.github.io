@@ -6,7 +6,8 @@ import PortraitPlaceholder from "./PortraitPlaceholder";
 import { resourceUrl } from "../utils/urls";
 
 /** The personal header replaces the decorative Home banner. */
-export default function ProfileHeader() {
+export default function ProfileHeader({ active = true }) {
+  const Heading = active ? "h1" : "h2";
   const [photoFailed, setPhotoFailed] = useState(false);
   const photo = resourceUrl(profile.photo, { image: true });
 
@@ -29,7 +30,7 @@ export default function ProfileHeader() {
       </div>
       <div className="profile-header-details">
         {/* <p className="eyebrow profile-header-eyebrow">Research profile</p> */}
-        <h1 className="profile-name">{profile.name}</h1>
+        <Heading className="profile-name">{profile.name}</Heading>
         <p className="profile-role">
           {profile.role.map((line, index) => (
             <Fragment key={line}>

@@ -1,8 +1,9 @@
 import { resourceUrl } from "../utils/urls";
 import profile from "../data/profile.json";
 import Icon from "./Icon";
+import { paperPath } from "../utils/routes";
 
-function AuthorList({ authors }) {
+export function AuthorList({ authors }) {
   const parts = authors.split(profile.name);
   return parts.map((part, index) => (
     <span key={`${part}-${index}`}>
@@ -76,7 +77,11 @@ export default function PublicationList({
             </div>
             <div>
               <h3 className="publication-title">
-                {publication.title || publication.label}
+                {publication.abstract ? (
+                  <a href={paperPath(publication.id)}>{publication.title}</a>
+                ) : (
+                  publication.title || publication.label
+                )}
               </h3>
               <p className="publication-authors">
                 {publication.authors ? (

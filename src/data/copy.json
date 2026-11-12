@@ -2,19 +2,27 @@
   "tabs": [
     {
       "id": "home",
-      "label": "Home"
+      "label": "Home",
+      "title": "Sam Moradzadeh · Human-Centered AI Researcher · Penn State",
+      "description": "A research portfolio at the intersection of human-centered AI, behavioral data science, and mixed-methods evaluation at Penn State."
     },
     {
       "id": "projects",
-      "label": "Projects"
+      "label": "Projects",
+      "title": "Projects · Sam Moradzadeh",
+      "description": "Systems, data pipelines, and mixed-methods studies across healthcare, enterprise, and intelligence analytics."
     },
     {
       "id": "publications",
-      "label": "Publications"
+      "label": "Publications",
+      "title": "Publications · Sam Moradzadeh",
+      "description": "Papers by Sam Moradzadeh on human-AI collaboration, games and player experience, and digital health, with PDFs and citations."
     },
     {
       "id": "about",
-      "label": "About"
+      "label": "About",
+      "title": "About · Sam Moradzadeh",
+      "description": "Background, working approach and interests of Sam Moradzadeh, a Ph.D. candidate in Informatics at Penn State."
     }
   ],
   "research": {

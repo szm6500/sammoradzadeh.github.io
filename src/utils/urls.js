@@ -18,9 +18,11 @@ export function resourceUrl(value, { email = false, image = false } = {}) {
     }
   }
   if (input.startsWith("//")) return "";
-  const base = new URL(import.meta.env.BASE_URL, window.location.origin);
+  // Root-relative, so the prerendered HTML matches whatever host serves it.
+  const base = new URL(import.meta.env.BASE_URL, "http://base.invalid");
   try {
-    return new URL(input.replace(/^\.?\//, ""), base).href;
+    const url = new URL(input.replace(/^\.?\//, ""), base);
+    return `${url.pathname}${url.search}${url.hash}`;
   } catch {
     return "";
   }

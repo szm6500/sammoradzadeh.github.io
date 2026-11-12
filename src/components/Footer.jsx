@@ -1,6 +1,6 @@
 import profile from "../data/profile.json";
 import Icon from "./Icon";
-import { scrollBehavior } from "../hooks/useHashNavigation";
+import { scrollBehavior } from "../hooks/useNavigation";
 
 export default function Footer({ activeTab }) {
   function backToTop() {
@@ -9,7 +9,7 @@ export default function Footer({ activeTab }) {
   }
   return (
     <footer className="main-footer">
-      <span>
+      <span suppressHydrationWarning>
         © {new Date().getFullYear()} {profile.name}
       </span>
       <button className="back-top" onClick={backToTop}>

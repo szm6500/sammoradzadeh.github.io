@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import copy from "./data/copy.json";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
@@ -8,14 +8,24 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Publications from "./pages/Publications";
 import About from "./pages/About";
-import useHashNavigation from "./hooks/useHashNavigation";
+import useNavigation from "./hooks/useNavigation";
 
-export default function App() {
-  const { activeTab, navigate, route, pulseId } = useHashNavigation();
+export default function App({ initialTab = "home" }) {
+  const { activeTab, navigate, pulseId, hydrated } = useNavigation(initialTab);
   const [citation, setCitation] = useState(null);
+  useEffect(() => {
+    const tab = copy.tabs.find((item) => item.id === activeTab);
+    if (tab) document.title = tab.title;
+  }, [activeTab]);
   const pages = {
-    home: <Home pulseId={pulseId} onCitation={setCitation} />,
-    projects: <Projects />,
+    home: (
+      <Home
+        active={activeTab === "home"}
+        pulseId={pulseId}
+        onCitation={setCitation}
+      />
+    ),
+    projects: <Projects active={activeTab === "projects"} />,
     publications: (
       <Publications
         activeTab={activeTab}
@@ -23,7 +33,7 @@ export default function App() {
         pulseId={pulseId}
       />
     ),
-    about: <About />,
+    about: <About active={activeTab === "about"} />,
   };
   return (
     <>
@@ -43,7 +53,8 @@ export default function App() {
               tabIndex={0}
               hidden={activeTab !== tab.id}
             >
-              {pages[tab.id]}
+              {/* Each prerendered page carries only its own tab; the rest mount on load. */}
+              {(hydrated || tab.id === initialTab) && pages[tab.id]}
             </section>
           ))}
           <Footer activeTab={activeTab} />

@@ -3,6 +3,7 @@ import foundations from "../data/researchFoundations.json";
 import intersections from "../data/researchIntersections.json";
 import copy from "../data/copy.json";
 import SectionHeading from "./SectionHeading";
+import { tabPath } from "../utils/routes";
 
 const radius = 98.4;
 const viewBox = { x: 0, y: -5, width: 320, height: 305 };
@@ -18,7 +19,7 @@ function publicationFilterHref(label, term) {
     dimension: label.toLowerCase(),
     value: term,
   });
-  return `?${params.toString()}#publications`;
+  return `${tabPath("publications")}?${params.toString()}`;
 }
 
 export default function VennDiagram() {

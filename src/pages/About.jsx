@@ -6,7 +6,7 @@ import { resourceUrl } from "../utils/urls";
 
 function CarPhoto({ photo, onOpen }) {
   const [unavailable, setUnavailable] = useState(false);
-  const src = resourceUrl(photo.src, { image: true });
+  const src = resourceUrl(photo.thumb || photo.src, { image: true });
 
   return (
     <button
@@ -21,6 +21,8 @@ function CarPhoto({ photo, onOpen }) {
         <img
           src={src}
           alt={photo.caption}
+          loading="lazy"
+          decoding="async"
           onError={() => setUnavailable(true)}
         />
       )}
@@ -32,13 +34,13 @@ function CarPhoto({ photo, onOpen }) {
   );
 }
 
-export default function About() {
+export default function About({ active }) {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 
   return (
     <>
       <div className="about-column">
-        <PageHeading {...profile.about} />
+        <PageHeading {...profile.about} active={active} />
 
         <section className="about-section" aria-labelledby="background-title">
           <h2 id="background-title">Background</h2>
