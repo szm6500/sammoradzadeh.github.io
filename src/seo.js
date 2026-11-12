@@ -21,6 +21,7 @@ function summary(text, limit = 158) {
 
 const sameAs = [
   "https://orcid.org/0000-0001-6221-1426",
+  "https://www.wikidata.org/wiki/Q130826613",
   "https://ist.psu.edu/directory/szm6500",
   "https://scholar.google.com/citations?user=Q_BC5_4AAAAJ",
   "https://github.com/szm6500",
